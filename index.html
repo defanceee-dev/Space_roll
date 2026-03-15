@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SpaceRoll</title>
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🍣 SpaceRoll</h1>
+
+<div class="item">
+<h2>Филадельфия</h2>
+<p>320 грн</p>
+<button onclick="addToCart('Филадельфия',320)">Добавить</button>
+</div>
+
+<div class="item">
+<h2>Калифорния</h2>
+<p>300 грн</p>
+<button onclick="addToCart('Калифорния',300)">Добавить</button>
+</div>
+
+<button class="checkout" onclick="checkout()">🛒 Оформить заказ</button>
+
+<script src="app.js"></script>
+
+</body>
+</html>
